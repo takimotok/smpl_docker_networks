@@ -1,0 +1,3 @@
+db/mysql/*
+logs/apache/*
+logs/nginx/*

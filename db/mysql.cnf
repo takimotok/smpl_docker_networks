@@ -1,0 +1,28 @@
+[client]
+default-character-set = utf8mb4
+
+
+[mysqld]
+# force client charset to the server's one
+skip-character-set-client-handshake
+
+character-set-server = utf8mb4
+collation-server = utf8mb4_general_ci
+# init-connect = SET NAMES utf8
+
+# datadir=/var/lib/mysql
+# socket=/var/lib/mysql/mysql.sock
+
+# Disabling symbolic-links is recommended to prevent assorted security risks
+# symbolic-links=0
+
+# log-error=/var/log/mysqld.log
+# pid-file=/var/run/mysqld/mysqld.pid
+
+
+[mysqldump]
+default-character-set = utf8mb4
+
+
+[mysql]
+default-character-set = utf8mb4
